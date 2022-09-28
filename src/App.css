@@ -1,0 +1,87 @@
+
+.body{
+  height: 100%;
+  width: 100%;
+}
+
+.bgimage{
+  height: 500%;
+  width: 500%;
+  background-position: center;
+  background-image: url("gymhd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.loginform{
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+}
+
+.form-box{ /*for borm box na kulay beige*/
+    width: 400px;
+    height: 350px;
+    position: relative;
+    top: 150px;
+    left: 600px;
+	  background: rgba(227, 176, 127, 0.942);
+}
+
+.link1{ /*link ng reset sa forgot password*/
+  font-size: 13px;
+  margin-top: 3px;
+  padding-left: 150px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form{
+	position: relative;
+	margin: 0 auto 100px;
+	padding: 25px;
+  text-align: center;
+}
+
+.form input{
+	font-family: sans-serif;
+	outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+	  width: 80%;
+    height: 30%;
+	  margin: 0 0 15px;
+	  padding: 10px;
+	  font-size: 14px;
+}
+
+.form button{ /*vutton properties*/
+	  font-family: 'Times New Roman', Times, serif;
+	  width: 25%;
+    color: white;
+    margin: 5px 42px;
+	  font-size: 14px;
+	  cursor: pointer;
+	  padding: 10px 20px;
+    border: none;
+    background: rgb(166, 38, 29);
+    display: inline-block;
+}
+
+.form button{border-radius: 16px;}
+
+.form .message{
+    font-size: 12px;
+	  margin: 5px 0 0;
+    color: white;
+}
+
+.form .message a{
+	color: rgb(241, 236, 234);
+	text-decoration: none;
+}
+
+.form .register-form{
+	display: none;
+}
